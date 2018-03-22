@@ -1,0 +1,35 @@
+@charset "gb2312";
+/*********************************Begin Media Queries****************************************/
+
+/* for 960px or less */
+@media screen and (max-width: 960px) {
+}
+/* for 768px or less */
+@media screen and (max-width: 768px) {
+}
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+body { background: #075498; }
+header, article, footer { width: 100%; margin: auto; overflow: hidden }
+.logo { margin: 20px 0; width: 100% }
+.logo img { margin: auto; width: 80% }
+nav { margin-bottom: 20px; }
+.topnav a { display: inline-block; text-align: center; background: rgba(149, 199, 228, 0.27); margin: 5px; padding: 5px; width: 26%; }
+.topnav a span:last-child { display: none; }
+.cbp_tmtimeline > li .cbp_tmtime { display: none; }
+.cbp_tmicon { display: none; }
+.cbp_tmtimeline > li .cbp_tmlabel { margin: 10px; height: auto }
+.cbp_tmtimeline:before { background: none; }
+.blogpic { width: 100%; height: auto; }
+.blogpic img { margin-bottom: 10px }
+.blog figure { margin: 5px auto; width: 90%; overflow: hidden; }
+.banner, .memorial_day, .ctitle span { display: none; }
+a.readmore { display: block; text-align: center; float: none; }
+.rnav { padding-left: 30px; }
+.gbko { margin: 0px; padding: 5px }
+.about_girl span img { display: none; }
+.about_girl p { width: auto }
+.about p img { margin: auto; width: 100%; height: auto; }
+}
+@media (min-width: 981px) {
+}
